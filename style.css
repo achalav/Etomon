@@ -1,0 +1,278 @@
+#grad {
+  background: linear-gradient(to right, blue , white);
+}
+#header{
+	background: linear-gradient(to right, lightblue , white);
+	width:100%;
+	height:120px;
+	
+}
+
+#dropdown img {
+    border-radius: 50%;
+    height:40px;
+   
+}
+
+select {
+        width:200px;
+        height: 40px;
+        float: right;
+        margin-right: 70px;
+        
+    border:none;
+   
+
+    }
+
+#left_column {
+    width: 13%;
+    height: 100px;
+    float: left;
+    padding: 5px;
+    background-image: url(etomon.PNG);
+    overflow: hidden;
+}
+#right_column {
+    width: 80%;
+    height: 100px;
+    float: right;
+    padding: 5px;
+   
+}
+
+#dropdown{
+	float: right;
+	margin-right: 50px;
+	margin-left:140px;
+	padding: 3px;
+	height:50px;
+	width: 25%;
+	border: solid 1px;
+
+	-webkit-border-top-right-radius: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px; 
+	
+
+}
+
+
+.topnav {
+    
+    float: right;
+    height: 120px;
+   
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 30px;
+    text-decoration: none;
+    font-size: 17px;
+
+    
+    
+}
+
+
+/* Add an active class to highlight the current page */
+.active {
+    
+    color: black;
+    font-weight: bold;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
+
+#wrapper1{
+	width:100%;
+	height:600px;
+	
+}
+
+#wrapper1_div1{
+	float: right;
+}
+
+#wrapper1_div2{
+	margin-left: 50px;
+	margin-top: 40px;
+}
+#wrapper1_div3{
+	margin-top: none;
+
+}
+#wrapper1_div1 table{
+	margin-right: 100px;
+	
+
+}
+#wrapper1_div3 table td{
+	padding-right: 90px;
+	padding-left: 90px;
+
+}
+#wrapper1_div4 table{
+
+
+width: 100%;
+}
+#wrapper1_div4 table th{
+	padding-right: 55px;
+	padding-left: 55px;
+	padding-top: 20px;
+	
+
+}
+#wrapper1_div4 table td{
+	
+	white-space: pre;
+
+
+}
+
+#wrapper1_div5 {
+	
+	white-space: pre;
+	margin-left: 420px;
+	
+
+
+}
+
+
+#wrapper2{
+	width:100%;
+	height:320px;
+	
+	
+}
+
+#wrapper3{
+	background-color: #ffcccc;
+	width:100%;
+	height:350px;
+	
+	
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 60%;
+  position: relative;
+  transition: all 5s ease-in-out;
+  height: 550px;
+  border: solid;
+  overflow: auto;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #06D85F;
+}
+
+#popup_left_column {
+    width: 20%;
+    height: 300px;
+    float: left;
+    padding: 5px;
+    
+    
+    
+}
+#popup_right_column {
+    width: 65%;
+    height: 350px;
+    float: right;
+    padding: 5px;
+    
+
+   
+}
+
+.popup1 table td{
+	
+	text-align: center;
+	
+padding-right: 70px;
+	padding-left: 80px;
+
+
+}
+
+#popup_right_column table td{
+	
+	text-align: center;
+
+
+
+}
+
+#popup_right_column table th{
+	padding-right: 105px;
+	padding-left: 55px;
+
+   padding-top: 50px;
+	
+	
+
+}
+#popup_right_column table td select{
+   border: solid 1px;
+   border-radius: 10px;
+	 width:125px;
+        height: 40px;
+}
+
+#popup_right_column table td button{
+	background-color: #eef7fa;
+	border-radius: 5px;
+	width:120px;
+	padding: 10px 10px;
+	font-size: 15px;
+}
+#footer{
+	width:100%;
+	height:150px;
+}
